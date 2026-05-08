@@ -1,2 +1,4 @@
-# ml-foundations
-Python, NumPy, Pandas, and Machine Learning foundations with structured notebooks and practical learning.
+# Welcome to ML (Machine Learning) Foundations
+ This reposetry contains all the codes and important concepts that a person must do for entering in the world of Machine Learning.
+
+      
