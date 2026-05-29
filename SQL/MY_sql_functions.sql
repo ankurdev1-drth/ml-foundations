@@ -1,0 +1,29 @@
+-- use startersql;
+
+-- SELECT count(id) from users; 
+-- select count(salary) from users where gender = 'Male'
+-- SELECT MIN(salary) AS min_salary, MAX(salary) AS max_salary FROM users;
+-- SELECT SUM(salary) AS toatl_salary from users
+-- SELECT avg(salary) AS average_salary from users 
+-- SELECT gender , AVG(salary) AS avg_dihadi 
+-- FROM users
+-- GROUP BY gender; 
+-- SELECT name, length(name) AS name_length FROM users 
+-- SELECT name, LOWER(name) AS lowercase_name from users;
+-- SELECT name, UPER(name) AS upercase_name from users;
+-- SELECT CONCAT (name, '<' , email, '>') AS user_contact FROM users;
+-- SELECT name , month(date_of_birth) AS birth_month FROM users;	
+-- SELECT name, DATEDIFF(CURDATE(), date_of_birth) AS days_lived FROM users;
+-- SELECT name, timestampdiff(year, date_of_birth, CURDATE()) AS age FROM users;
+-- from here we will start mathematical functions 
+-- SELECT salary,
+-- 	round(salary)  as rounded,
+--     floor(salary) as floored,
+--     ceil(salary) as ceiled
+-- FROM users;
+-- using even or odd user IDS
+-- SELECT id, MOD(id, 2) AS remainder FROM users; yaha pe id = 2 wala 0 ho jaega ; kinda similar to TRUE or false\ BOOLEAN 
+-- SELECT name, gender,
+-- IF(gender = 'Female','Yes','No') AS is_female
+-- from users;
+

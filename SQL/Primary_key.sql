@@ -1,0 +1,16 @@
+-- here we'll be working on primary key which is a unqile not null key used to identify rows in a table
+-- CREATE TABLE lingo(
+-- id INT auto_increment PRIMARY key ,
+-- name VARCHAR(100)
+-- )
+-- Select *from lingo 
+-- UNIQUE allows null valuees and can be used multiple times and its optional 
+-- create table lingo (
+-- id int auto_increment primary key,
+-- name varchar(100),
+-- email varchar(100) UNIQUE
+-- )
+-- select *from lingo
+-- alter table lingo drop email,
+-- select *from lingo
+\

@@ -1,0 +1,6 @@
+-- use starterql
+-- here we'll learn about MY SQL transactions and autocommit 
+-- we'll learn how to turn off the autocommit mode as mysql always runs on autocommit mode !
+-- SET autocommit = 0;
+-- now making some changes
+-- UPDATE users SET salary = 80000 WHERE id = 1;

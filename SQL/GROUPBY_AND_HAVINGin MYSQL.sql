@@ -1,0 +1,16 @@
+-- starting with example of our user table
+-- SELECT *from users
+-- SELECT gender as 'Gender', COUNT(*) as 'Count',  AVG(salary) as 'Average Salary' 
+-- FROM users WHERE id< 500 GROUP BY gender
+-- HAVING AVG(salary)< 60000; this will be  used instead of where avg()
+-- WHERE AVG(salary) > 700                  will give error as where is not valid at this position 
+-- SELECT referred_by_id, COUNT(*) AS total_referred
+-- FROM users
+-- WHERE referred_by_id IS NOT NULL
+-- GROUP BY referred_by_id
+-- HAVING COUNT(*)>1;
+
+-- rollup 
+-- SELECT gender, COUNT(*) AS total_users
+-- FROM users
+-- GROUP BY gender WITH ROLLUP;

@@ -1,0 +1,14 @@
+-- creating a view 
+-- create view high_salary_users AS
+-- SELECT id, name, salary
+-- FROM users
+-- WHERE salary > 70000;
+-- SELECT *from high_salary_users
+
+-- demonstration that a View is Always Up-To-Date
+-- UPDATE users
+-- SET salary = 72000
+-- WHERE name = 'Raj';
+-- SELECT *FROM high_salary_users; 
+-- SET SQL_SAFE_UPDATES = 0;
+-- drop view high_salary_users;
